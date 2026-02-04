@@ -9,9 +9,10 @@
     -o-transition: all linear .3s;
 }
 
-.category_item h3 {
+.category_item h3,
+.category_item h3 span {
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     display: -webkit-box;
     -webkit-line-clamp: 1;

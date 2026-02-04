@@ -4,6 +4,8 @@ import BannerSlider from "./homeComponents/bannerSlider/BannerSlider";
 import BannerAdd from "./homeComponents/bannerAdd/BannerAdd";
 import Features from "./homeComponents/features/Features";
 import HomeCategory from "./homeComponents/homeCategory/HomeCategory";
+import SectionHeading from "../../components/sectionHeadng/SectionHeading";
+import HomeFlashSell from "./homeComponents/homeFlashSell/HomeFlashSell";
 
 const Home = () => {
   return (
@@ -26,6 +28,7 @@ const Home = () => {
       </div>
 
       <Features />
+      <HomeFlashSell />
       <HomeCategory />
     </>
   );

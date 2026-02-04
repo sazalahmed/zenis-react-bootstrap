@@ -1,0 +1,24 @@
+.section_heading h2,
+.section_heading h2 span {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--colorBlack);
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.section_heading h2 span::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 75px;
+    background: url(../../assets/images/heading_shapes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -10px;
+    left: -7px;
+    z-index: -1;
+    opacity: 1;
+}
