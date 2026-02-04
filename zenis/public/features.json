@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "color": "purple",
+        "title": "Return & refund",
+        "description": "Money back guarantee",
+        "image": "https://html.narzotech.com/zenis/assets/images/feature-icon_1.svg"
+    },
+    {
+        "id": 2,
+        "color": "green",
+        "title": "Quality Support",
+        "description": "Always online 24/7",
+        "image": "https://html.narzotech.com/zenis/assets/images/feature-icon_3.svg"
+    },
+    {
+        "id": 3,
+        "color": "orange",
+        "title": "Secure Payment",
+        "description": "30% off by subscribing",
+        "image": "https://html.narzotech.com/zenis/assets/images/feature-icon_2.svg"
+    },
+    {
+        "id": 4,
+        "color": "",
+        "title": "Daily Offers",
+        "description": "20% off by subscribing",
+        "image": "https://html.narzotech.com/zenis/assets/images/feature-icon_4.svg"
+    }
+]

@@ -237,8 +237,8 @@ button {
     opacity: 1;
 }
 
-.nextArrow,
-.prevArrow {
+.slick-prev,
+.slick-next {
     width: 40px;
     height: 40px;
     line-height: 40px !important;

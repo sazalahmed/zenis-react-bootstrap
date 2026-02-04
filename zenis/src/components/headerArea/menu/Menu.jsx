@@ -8,7 +8,7 @@ import logo from "../../../assets/images/logo_2.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiBars3BottomLeft } from "react-icons/hi2";
 import { LuUserRound } from "react-icons/lu";
-import MenuCategory from "./../../MenuCategory";
+import MenuCategory from "../../menuCategory/MenuCategory";
 import { useState } from "react";
 
 const Menu = () => {
@@ -18,7 +18,7 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <>
       <nav className="main_menu d-none d-lg-block">
         <div className="container">
           <div className="row">
@@ -279,7 +279,7 @@ const Menu = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

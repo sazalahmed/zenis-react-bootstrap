@@ -1,8 +1,9 @@
 import React from "react";
+import "./MenuCategory.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { IoIosArrowForward } from "react-icons/io";
-import useData from "../hooks/Hooks";
+import useData from "../../hooks/Hooks";
 
 const MenuCategory = () => {
   // receive categorys from useData hook

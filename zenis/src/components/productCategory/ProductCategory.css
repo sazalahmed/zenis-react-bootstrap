@@ -1,0 +1,102 @@
+.category_item {
+    display: block;
+    margin: 0px 12px;
+    border: 1px solid transparent;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.category_item h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.category_item p {
+    text-align: center;
+    color: var(--themeColorTwo);
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.category_item .img {
+    margin: 20px auto;
+    width: 170px;
+    height: 170px;
+    background: var(--lightBg2);
+    padding: 40px;
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -ms-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -o-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.category_item:hover .img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.category_item:hover .img img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.slick-prev,
+.slick-next {
+    width: 40px;
+    height: 40px;
+    line-height: 40px !important;
+    padding: 12px;
+    text-align: center;
+    background: var(--colorWhite) !important;
+    color: var(--colorBlack) !important;
+    border: 1px solid var(--lightBg);
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    z-index: 9;
+    right: auto;
+    left: 12px;
+}
+
+.slick-next {
+    left: auto;
+    right: 12px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    background: var(--themeColorTwo) !important;
+    border-color: var(--themeColorTwo) !important;
+    color: var(--colorWhite) !important;
+}

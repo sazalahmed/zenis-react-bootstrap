@@ -25,7 +25,15 @@ const useData = () => {
       .then((data) => setBanners(data));
   }, []);
 
-  return { categorys, products, banners };
+  // for features data load
+  const [features, setFeatures] = useState([]);
+  useEffect(() => {
+    fetch("features.json")
+      .then((res) => res.json())
+      .then((data) => setFeatures(data));
+  }, []);
+
+  return { categorys, products, banners, features };
 };
 
 export default useData;
