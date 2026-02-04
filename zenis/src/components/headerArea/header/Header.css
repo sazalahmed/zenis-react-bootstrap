@@ -1,0 +1,314 @@
+header {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: var(--colorWhite);
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    z-index: 2;
+}
+
+header .header_logo_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header_logo {
+    width: 130px;
+}
+
+header form {
+    line-height: 0;
+    position: relative;
+    border: 1px solid var(--themeColoeOne);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+}
+
+header form .input {
+    width: 65%;
+}
+
+header form input {
+    border: none;
+    padding: 8px 20px;
+    font-size: 14px;
+    background: none;
+    border-left: 1px solid #ddd;
+    margin: 8px 0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+header form button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 37px;
+    height: 37px;
+    background: var(--themeColoeOne);
+    color: var(--colorWhite);
+    line-height: 33px;
+    text-align: center;
+    font-size: 20px;
+}
+
+header form button:hover {
+    background: var(--colorBlack);
+}
+
+header .header_support_user {
+    justify-content: end;
+    gap: 10px 30px;
+}
+
+header .header_support {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+header .header_support .icon {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ddd;
+    text-align: center;
+    line-height: 34px;
+    color: var(--colorBlack);
+    font-size: 22px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+header .header_support h3 {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--themeColoeOne);
+    font-family: var(--bodyFont);
+}
+
+header .header_support h3 a span,
+header .header_support h3 a {
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    margin-top: 2px;
+    min-width: 140px;
+}
+
+header .header_support h3 a:hover span,
+header .header_support h3 a:hover {
+    color: var(--themeColorTwo);
+}
+
+.header_2 {
+    z-index: 99;
+}
+
+.header_2 form {
+    background: var(--lightBg2);
+    border-color: #ddd;
+    width: 90%;
+}
+
+.header_2 form,
+.header_2 form button {
+    border-color: #e5e5e5;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.header_2 .header_support_user {
+    justify-content: start;
+    margin: 0 auto;
+}
+
+.header_2 .topbar_right .current {
+    color: var(--colorBlack);
+}
+
+.header_2 form button {
+    background: var(--colorBlack);
+}
+
+.header_2 form button:hover {
+    background: var(--themeColorTwo);
+}
+
+.header_2 .header_support h3 {
+    color: var(--paraColor);
+}
+
+.header_2 .css-hlgwow {
+    padding: 0;
+}
+
+.header_2 .css-b62m3t-container {
+    margin-left: 20px;
+}
+
+.header_2 form .css-13cymwt-control,
+.header_2 form .css-t3ipsp-control {
+    width: 170px;
+}
+
+.header_2 form .css-1wy0on6 {
+    margin-right: 20px;
+}
+
+.topbar_right .css-b62m3t-container {
+    background: var(--lightBg2);
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.topbar_right .css-1dimb5e-singleValue {
+    padding: 0px 12px;
+}
+
+.topbar_right .css-1cfo1cf {
+    padding-left: 12px !important;
+}
+
+.topbar_right .css-1wy0on6 {
+    margin-right: 12px;
+}
+
+.language.css-b62m3t-container {
+    width: 110px;
+}
+
+.currency.css-b62m3t-container {
+    width: 90px;
+}
+
+
+
+/*  */
+.css-1dimb5e-singleValue {
+    overflow: initial !important;
+    color: black !important;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0 !important;
+}
+
+.css-13cymwt-control,
+.css-t3ipsp-control {
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+.css-1u9des2-indicatorSeparator {
+    display: none;
+}
+
+.css-19bb58m,
+.css-1cfo1cf {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.css-15lsz6c-indicatorContainer,
+.css-1xc3v61-indicatorContainer,
+.css-15lsz6c-indicatorContainer:hover {
+    color: var(--colorBlack) !important;
+    padding: 0 !important;
+}
+
+.css-1xc3v61-indicatorContainer svg,
+.css-15lsz6c-indicatorContainer svg {
+    width: 16px;
+}
+
+.css-1nmdiq5-menu {
+    background: var(--colorWhite) !important;
+    box-sizing: border-box !important;
+    border-radius: 6px !important;
+    margin: 0 !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    border: 1px solid #ddd !important;
+    overflow: hidden;
+}
+
+.css-qr46ko {
+    padding: 0 !important;
+}
+
+.css-tr4s17-option,
+.css-d7l1ni-option,
+.css-10wo9uf-option {
+    padding: 15px 10px !important;
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+
+.css-tr4s17-option {
+    background-color: var(--themeColorTwo) !important;
+    color: var(--colorWhite) !important;
+}
+
+.css-d7l1ni-option {
+    background-color: var(--lightBg) !important;
+}
+
+.css-qr46ko {
+    max-height: 250px !important;
+}
+
+.css-qr46ko::-webkit-scrollbar {
+    background: #eee;
+    width: 5px;
+}
+
+.css-qr46ko::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/*  */
+
+.css-tr4s17-option,
+.css-10wo9uf-option,
+.css-d7l1ni-option {
+    line-height: 15px;
+    padding: 10px 10px !important;
+}

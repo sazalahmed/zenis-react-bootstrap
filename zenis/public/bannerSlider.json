@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "heading": "Where Fashion Meets Individuality",
+        "subHeading": "New arrivals of 2025",
+        "image": "https://html.narzotech.com/zenis/assets/images/slider_1.jpg"
+    },
+    {
+        "id": 2,
+        "heading": "make your fashion look more changing",
+        "subHeading": "Trending of this month",
+        "image": "https://html.narzotech.com/zenis/assets/images/slider_3.jpg"
+    },
+    {
+        "id": 3,
+        "heading": "Discover ypur Best fitting Clothes",
+        "subHeading": "Best selling of 2025",
+        "image": "https://html.narzotech.com/zenis/assets/images/slider_2.jpg"
+    }
+]

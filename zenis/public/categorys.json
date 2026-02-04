@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Men's Fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_2.png"
+    },
+    {
+        "id": 2,
+        "title": "women's Fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_3.png"
+    },
+    {
+        "id": 3,
+        "title": "kids fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_1.png"
+    },
+    {
+        "id": 4,
+        "title": "Denim fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_4.png"
+    },
+    {
+        "id": 5,
+        "title": "Jewelry & Accessories",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_5.png"
+    },
+    {
+        "id": 6,
+        "title": "Sports & Fitness",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_6.png"
+    },
+    {
+        "id": 7,
+        "title": "Shoes",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_7.png"
+    },
+    {
+        "id": 8,
+        "title": "Denim fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_4.png"
+    },
+    {
+        "id": 9,
+        "title": "kids fashion",
+        "image": "https://html.narzotech.com/zenis/assets/images/category_img_1.png"
+    }
+]
