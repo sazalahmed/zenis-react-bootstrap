@@ -85,12 +85,12 @@
     -o-transition: all linear .3s;
     z-index: 9;
     right: auto;
-    left: 12px;
+    left: 0;
 }
 
 .slick-next {
     left: auto;
-    right: 12px;
+    right: 0;
 }
 
 .slick-prev:hover,

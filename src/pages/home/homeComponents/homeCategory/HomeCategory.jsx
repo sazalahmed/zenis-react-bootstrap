@@ -31,10 +31,10 @@ const HomeCategory = () => {
 
   return (
     <>
-      <div className="container mt-5 pt-5">
+      <div className="container mt-5 pt-4">
         <div className="row">
           <Slider {...settings}>
-            {categorys.map((category) => (
+            {categorys?.map((category) => (
               <div className="col-2">
                 <ProductCategory key={category.id} category={category} />
               </div>

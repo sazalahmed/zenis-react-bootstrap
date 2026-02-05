@@ -5,10 +5,12 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_23.png",
         "sku": "HRYUSG67EG-RD-S",
         "original_price": 70.00,
-        "discount_price": 65.00,
-        "discount_type": 65.00,
+        "discount_price": 49.00,
         "category": "Fashion",
         "tag": "Clothing",
+        "is_new": true,
+        "is_flash_sell": true,
+        "is_spatial": false,
         "colors": [
             {
                 "name": "Red",
@@ -27,7 +29,13 @@
                 "code": "#ffa500"
             }
         ],
-        "size": "S",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.8,
         "review_count": 93,
@@ -39,11 +47,30 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_18.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
-        "discount_price": 80.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "M",
+        "is_new": false,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "black",
+                "code": "#000000"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 5.0,
         "review_count": 214,
@@ -55,10 +82,35 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_7.png",
         "sku": "HRYUSG67EG-RD-L",
         "original_price": 57.00,
+        "discount_price": 25.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "L",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Pink",
+                "code": "##ffc0cb"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
         "stock_status": "In Stock",
         "rating": 3.6,
         "review_count": 51,
@@ -70,11 +122,37 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_9.png",
         "sku": "HRYUSG67EG-RD-XL",
         "original_price": 65.00,
-        "discount_price": 59.00,
+        "discount_price": 40.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "XL",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "colors": [
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "Out of Stock",
         "rating": 4.2,
         "review_count": 32,
@@ -88,8 +166,28 @@
         "original_price": 99.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Orange",
-        "size": "S",
+        "is_new": true,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
         "stock_status": "In Stock",
         "rating": 4.9,
         "review_count": 245,
@@ -104,8 +202,24 @@
         "discount_price": 74.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Orange",
-        "size": "M",
+        "is_new": false,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.8,
         "review_count": 93,
@@ -117,10 +231,36 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_17.png",
         "sku": "HRYUSG67EG-OR-L",
         "original_price": 95.00,
+        "discount_price": 49.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Orange",
-        "size": "L",
+        "is_new": true,
+        "is_flash_sell": true,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "Out of Stock",
         "rating": 2.9,
         "review_count": 19,
@@ -135,8 +275,33 @@
         "discount_price": 99.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Orange",
-        "size": "XL",
+        "is_new": true,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.8,
         "review_count": 93,
@@ -147,11 +312,36 @@
         "title": "Sharee Petticoat For Women",
         "image": "https://html.narzotech.com/zenis/assets/images/product_13.png",
         "sku": "HRYUSG67EG-GR-S",
-        "original_price": 79.00,
+        "original_price": 80.00,
+        "discount_price": 59.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Green",
-        "size": "S",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "colors": [
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 3.7,
         "review_count": 200,
@@ -162,12 +352,36 @@
         "title": "Jeans Pants For Women",
         "image": "https://html.narzotech.com/zenis/assets/images/product_14.png",
         "sku": "HRYUSG67EG-GR-M",
-        "original_price": 250.00,
-        "discount_price": 239.00,
+        "original_price": 99.00,
+        "discount_price": 35.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Green",
-        "size": "M",
+        "is_new": true,
+        "is_flash_sell": true,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            }
+        ],
+        "sizes": [
+            "S",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 5.0,
         "review_count": 259,
@@ -181,8 +395,32 @@
         "original_price": 58.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Green",
-        "size": "L",
+        "is_new": false,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "Out of Stock",
         "rating": 3.7,
         "review_count": 102,
@@ -197,8 +435,31 @@
         "discount_price": 70.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Green",
-        "size": "XL",
+        "is_new": true,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
         "stock_status": "In Stock",
         "rating": 3.6,
         "review_count": 93,
@@ -213,8 +474,32 @@
         "discount_price": 39.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Black",
-        "size": "S",
+        "is_new": false,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "In Stock",
         "rating": 5.0,
         "review_count": 516,
@@ -228,8 +513,33 @@
         "original_price": 92.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Black",
-        "size": "M",
+        "is_new": true,
+        "is_flash_sell": false,
+        "is_spatial": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.4,
         "review_count": 87,
@@ -244,8 +554,33 @@
         "discount_price": 59.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Black",
-        "size": "L",
+        "is_new": false,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.8,
         "review_count": 28,
@@ -260,8 +595,32 @@
         "discount_price": 77.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Black",
-        "size": "XL",
+        "is_new": true,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 5.0,
         "review_count": 108,
@@ -276,8 +635,32 @@
         "discount_price": 65.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "S",
+        "is_new": false,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 4.8,
         "review_count": 93,
@@ -289,11 +672,38 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_18.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
-        "discount_price": 80.00,
+        "discount_price": 65.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "M",
+        "is_new": true,
+        "is_flash_sell": true,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "In Stock",
         "rating": 5.0,
         "review_count": 214,
@@ -307,8 +717,31 @@
         "original_price": 57.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "L",
+        "is_new": false,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
         "stock_status": "In Stock",
         "rating": 3.6,
         "review_count": 51,
@@ -323,8 +756,33 @@
         "discount_price": 59.00,
         "category": "Fashion",
         "tag": "Clothing",
-        "color": "Red",
-        "size": "XL",
+        "is_new": true,
+        "is_flash_sell": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
         "stock_status": "Out of Stock",
         "rating": 4.2,
         "review_count": 32,

@@ -1,0 +1,93 @@
+.spatial_products .section_heading h2 {
+    position: relative;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+
+.spatial_products .section_heading h2::after {
+    position: absolute;
+    content: "";
+    width: 190%;
+    height: 1px;
+    background: #ddd;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.special_product_banner {
+    overflow: hidden;
+    position: relative;
+    margin-top: 25px;
+    height: 645px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.special_product_banner img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.special_product_banner .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 55px;
+}
+
+.special_product_banner .text h5 {
+    margin-bottom: 10px;
+    color: var(--colorWhite);
+    font-family: var(--cursiveFont);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.special_product_banner .text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.special_product_banner .text p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    opacity: .7;
+}
+
+.special_product_banner .text .black_btn {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.special_product_banner .text .black_btn:hover span {
+    background: var(--colorWhite);
+}
+
+.special_product_banner .text .black_btn:hover {
+    color: var(--colorPrimary);
+}
+
+.special_product_banner:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}

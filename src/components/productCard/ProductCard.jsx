@@ -7,16 +7,31 @@ import { LuShoppingCart } from "react-icons/lu";
 import { IoStar, IoStarHalf, IoStarOutline } from "react-icons/io5";
 
 const ProductCard = ({ product }) => {
+  // discount percent calculate start
+  const hasDiscount =
+    typeof product.discount_price === "number" &&
+    product.discount_price < product.original_price;
+
+  const discountPercent = hasDiscount
+    ? Math.round(
+        ((product.original_price - product.discount_price) /
+          product.original_price) *
+          100,
+      )
+    : null;
+  // discount percent calculate end
+
   return (
     <div className="product_item">
       <div className="product_img">
         <img src={product.image} alt="Zenis" />
         <ul className="discount_list">
-          <li className="discount">
-            {" "}
-            <b>-</b> 75%
-          </li>
-          <li className="new"> new</li>
+          {hasDiscount && (
+            <li className="discount">
+              <b>-</b> {discountPercent}%
+            </li>
+          )}
+          {product.is_new && <li className="new">new</li>}
         </ul>
         <ul className="btn_list">
           <li>
@@ -41,7 +56,14 @@ const ProductCard = ({ product }) => {
           {product.title}
         </Link>
         <p className="price">
-          {product.discount_price} <del>{product.original_price}</del>
+          {typeof product.discount_price === "number" ? (
+            <>
+              ${Number(product.discount_price).toFixed(2)}
+              <del>${Number(product.original_price).toFixed(2)}</del>
+            </>
+          ) : (
+            <>${Number(product.original_price).toFixed(2)}</>
+          )}
         </p>
         <p className="rating">
           <IoStar />
@@ -52,8 +74,17 @@ const ProductCard = ({ product }) => {
           <span>({product.review_count} Reviews)</span>
         </p>
         <ul className="color">
-          <li>Red</li>
-          <li>blue</li>
+          {Array.isArray(product.colors) ? (
+            product.colors.map((color, index) => (
+              <li
+                key={index}
+                title={color.name}
+                style={{ backgroundColor: color.code }}
+              />
+            ))
+          ) : product.color ? (
+            <li title={product.color}>{product.color}</li>
+          ) : null}
         </ul>
       </div>
     </div>

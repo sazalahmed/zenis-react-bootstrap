@@ -13,7 +13,7 @@ const MenuCategory = () => {
     <>
       <ul className="menu_cat_item">
         {categorys?.map((category) => (
-          <li>
+          <li key={category.id}>
             <Link to="/">
               <span>
                 <img src={category.image} alt="Zenis" />
@@ -23,7 +23,7 @@ const MenuCategory = () => {
             </Link>
           </li>
         ))}
-        <li class="all_category">
+        <li className="all_category">
           <Link to="/">
             View All Categories <FaArrowRight />
           </Link>

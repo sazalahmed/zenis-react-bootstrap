@@ -1,0 +1,33 @@
+.home_flash_sell_countdown {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-right: 100px;
+}
+
+.home_flash_sell_countdown p {
+    text-align: center;
+    background: var(--themeColorTwo);
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    padding: 3px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    color: var(--colorWhite);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.home_flash_sell_countdown p span {
+    display: inline-block;
+    text-transform: capitalize;
+    color: var(--colorWhite);
+    font-weight: 600;
+    font-size: 12px;
+}
