@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "How To Choose The Right Sofa for your home",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_12.png",
+        "categoty": "fashion",
+        "author": "Jhon Deo",
+        "created_at": "24 Mar 2026",
+        "tital_comment": "15"
+    },
+    {
+        "id": 2,
+        "title": "How to Plop Hair for Bouncy, Beautiful Curls",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_5.png",
+        "categoty": "beauty",
+        "author": "Adnan Alvi",
+        "created_at": "12 Mar 2026",
+        "tital_comment": "27"
+    },
+    {
+        "id": 3,
+        "title": "How to Plop Hair for Bouncy, Beautiful Curls",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_1.png",
+        "categoty": "fashion",
+        "author": "Hasib Sing",
+        "created_at": "17 Jan 2026",
+        "tital_comment": "04"
+    },
+    {
+        "id": 4,
+        "title": "Fast fashion: How clothes are linked to climate change",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_6.png",
+        "categoty": "cosmetics",
+        "author": "Jhon Deo",
+        "created_at": "29 Dec 2026",
+        "tital_comment": "53"
+    },
+    {
+        "id": 5,
+        "title": "Fast fashion: How clothes are linked to climate change",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_2.png",
+        "categoty": "denim",
+        "author": "Hasib Sing",
+        "created_at": "13 Feb 2026",
+        "tital_comment": "81"
+    },
+    {
+        "id": 6,
+        "title": "Which foundation formula is right for your skin?",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_3.png",
+        "categoty": "Bag",
+        "author": "Smith Jhon",
+        "created_at": "27 Aug 2026",
+        "tital_comment": "30"
+    }
+]

@@ -6,11 +6,12 @@
         "sku": "HRYUSG67EG-RD-S",
         "original_price": 70.00,
         "discount_price": 49.00,
-        "category": "Fashion",
+        "category": "Men's Fashion",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": true,
         "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Red",
@@ -47,9 +48,10 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_18.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": false,
         "is_spatial": true,
         "colors": [
@@ -78,14 +80,15 @@
     },
     {
         "id": 3,
-        "title": "Denim 2 Quarter Pant",
+        "title": "western 2 Quarter Pant",
         "image": "https://html.narzotech.com/zenis/assets/images/product_7.png",
         "sku": "HRYUSG67EG-RD-L",
         "original_price": 57.00,
         "discount_price": 25.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": true,
         "is_spatial": true,
         "colors": [
@@ -118,16 +121,17 @@
     },
     {
         "id": 4,
-        "title": "Men's Denim combo set",
+        "title": "Men's western combo set",
         "image": "https://html.narzotech.com/zenis/assets/images/product_9.png",
         "sku": "HRYUSG67EG-RD-XL",
         "original_price": 65.00,
         "discount_price": 40.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": false,
         "is_flash_sell": true,
         "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Red",
@@ -160,13 +164,14 @@
     },
     {
         "id": 5,
-        "title": "Women's Western Party Dress",
-        "image": "https://html.narzotech.com/zenis/assets/images/product_10.png",
+        "title": "BareBloom Face Oil",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_22.png",
         "sku": "HRYUSG67EG-OR-S",
         "original_price": 99.00,
-        "category": "Fashion",
+        "category": "Jewelry",
         "tag": "Clothing",
         "is_new": true,
+        "is_favourite": true,
         "is_flash_sell": false,
         "is_spatial": true,
         "colors": [
@@ -196,13 +201,14 @@
     {
         "id": 6,
         "title": "Kid's Western Party Dress",
-        "image": "https://html.narzotech.com/zenis/assets/images/product_10.png",
+        "image": "https://html.narzotech.com/zenis/assets/images/product_26.png",
         "sku": "HRYUSG67EG-OR-M",
         "original_price": 80.00,
         "discount_price": 74.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": false,
         "is_spatial": true,
         "colors": [
@@ -227,16 +233,17 @@
     },
     {
         "id": 7,
-        "title": "Denim Jeans Pants For Men",
+        "title": "western Jeans Pants For Men",
         "image": "https://html.narzotech.com/zenis/assets/images/product_17.png",
         "sku": "HRYUSG67EG-OR-L",
         "original_price": 95.00,
         "discount_price": 49.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": true,
         "is_spatial": true,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -273,11 +280,12 @@
         "sku": "HRYUSG67EG-OR-XL",
         "original_price": 125.00,
         "discount_price": 99.00,
-        "category": "Fashion",
+        "category": "Sports",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": false,
         "is_spatial": true,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -314,11 +322,12 @@
         "sku": "HRYUSG67EG-GR-S",
         "original_price": 80.00,
         "discount_price": 59.00,
-        "category": "Fashion",
+        "category": "Fitness",
         "tag": "Clothing",
         "is_new": false,
         "is_flash_sell": true,
         "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Green",
@@ -354,11 +363,12 @@
         "sku": "HRYUSG67EG-GR-M",
         "original_price": 99.00,
         "discount_price": 35.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": true,
         "is_spatial": true,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -393,9 +403,10 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_16.png",
         "sku": "HRYUSG67EG-GR-L",
         "original_price": 58.00,
-        "category": "Fashion",
+        "category": "kid's fashion",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": false,
         "is_spatial": true,
         "colors": [
@@ -428,15 +439,17 @@
     },
     {
         "id": 12,
-        "title": "Denim Shirt For Men",
+        "title": "western Shirt For Men",
         "image": "https://html.narzotech.com/zenis/assets/images/product_15.png",
         "sku": "HRYUSG67EG-GR-XL",
         "original_price": 82.00,
         "discount_price": 70.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -472,9 +485,10 @@
         "sku": "HRYUSG67EG-BK-S",
         "original_price": 49.00,
         "discount_price": 39.00,
-        "category": "Fashion",
+        "category": "winter",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": false,
         "is_spatial": true,
         "colors": [
@@ -511,11 +525,12 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_19.png",
         "sku": "HRYUSG67EG-BK-M",
         "original_price": 92.00,
-        "category": "Fashion",
+        "category": "men's fashion",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": false,
         "is_spatial": true,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -552,10 +567,12 @@
         "sku": "HRYUSG67EG-BK-L",
         "original_price": 69.00,
         "discount_price": 59.00,
-        "category": "Fashion",
+        "category": "women's Fashion",
         "tag": "Clothing",
         "is_new": false,
+        "is_favourite": true,
         "is_flash_sell": false,
+        "is_spatial": false,
         "colors": [
             {
                 "name": "Purple",
@@ -593,10 +610,12 @@
         "sku": "HRYUSG67EG-BK-XL",
         "original_price": 88.00,
         "discount_price": 77.00,
-        "category": "Fashion",
+        "category": "Shoes",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -633,10 +652,12 @@
         "sku": "HRYUSG67EG-RD-S",
         "original_price": 70.00,
         "discount_price": 65.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": false,
         "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -672,11 +693,12 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_18.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
-        "discount_price": 65.00,
-        "category": "Fashion",
+        "category": "women's Fashion",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -711,14 +733,16 @@
     },
     {
         "id": 19,
-        "title": "Denim 2 Quarter Pant",
+        "title": "western 2 Quarter Pant",
         "image": "https://html.narzotech.com/zenis/assets/images/product_7.png",
         "sku": "HRYUSG67EG-RD-L",
         "original_price": 57.00,
-        "category": "Fashion",
+        "category": "men's fashion",
         "tag": "Clothing",
         "is_new": false,
         "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -749,15 +773,16 @@
     },
     {
         "id": 20,
-        "title": "Men's Denim combo set",
+        "title": "Men's western combo set",
         "image": "https://html.narzotech.com/zenis/assets/images/product_9.png",
         "sku": "HRYUSG67EG-RD-XL",
         "original_price": 65.00,
-        "discount_price": 59.00,
-        "category": "Fashion",
+        "category": "western",
         "tag": "Clothing",
         "is_new": true,
         "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
         "colors": [
             {
                 "name": "Purple",
@@ -786,6 +811,302 @@
         "stock_status": "Out of Stock",
         "rating": 4.2,
         "review_count": 32,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 21,
+        "title": "Men's western combo set",
+        "image": "https://html.narzotech.com/zenis/assets/images/product_2.png",
+        "sku": "HRYUSG67EG-RD-XL",
+        "original_price": 65.00,
+        "category": "western",
+        "tag": "Clothing",
+        "is_new": true,
+        "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": "Out of Stock",
+        "rating": 4.2,
+        "review_count": 32,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 22,
+        "title": "Minimal Muse Makeup Set",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_6.png",
+        "sku": "HRYUSG67EG-RD-XL",
+        "original_price": 65.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "5 Inch",
+            "8 Inch"
+        ],
+        "stock_status": "In Stock",
+        "rating": 4.2,
+        "review_count": 79,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 23,
+        "title": "Deodorant Body Spray",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_5.png",
+        "sku": "HRYUSG67EG-BK-XL",
+        "original_price": 88.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": true,
+        "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 5.0,
+        "review_count": 108,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 24,
+        "title": "PlushMatte Liquid Lipstick",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_3.png",
+        "sku": "HRYUSG67EG-RD-S",
+        "original_price": 70.00,
+        "discount_price": 65.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 4.8,
+        "review_count": 93,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 25,
+        "title": "AirBlur Matte Foundation",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_24.png",
+        "sku": "HRYUSG67EG-RD-M",
+        "original_price": 99.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 5.0,
+        "review_count": 214,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 26,
+        "title": "AirBlur Matte Foundation",
+        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_24.png",
+        "sku": "HRYUSG67EG-RD-M",
+        "original_price": 99.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 5.0,
+        "review_count": 214,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 27,
+        "title": "Men's trendy formal shoes",
+        "image": "https://html.narzotech.com/zenis/assets/images/product_27.png",
+        "sku": "HRYUSG67EG-RD-M",
+        "original_price": 99.00,
+        "category": "Shoes",
+        "tag": "Clothing",
+        "is_new": false,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Pink",
+                "code": "#ffc0cb"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 5.0,
+        "review_count": 214,
         "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
     }
 ]

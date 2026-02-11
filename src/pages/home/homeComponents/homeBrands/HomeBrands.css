@@ -1,0 +1,17 @@
+.brand_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.brand_area li {
+    width: 11.39%;
+    height: 95px;
+
+}
+
+.home_brands .section_heading h2 span::after {
+    width: 125px;
+}

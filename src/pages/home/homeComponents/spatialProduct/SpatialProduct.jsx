@@ -30,7 +30,7 @@ const SpatialProduct = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row mt-2">
           <div className="col-xl-4">
             <div className="special_product_banner">
               <img src={SpatialProAddImg} alt="Spatial Product" />
@@ -50,8 +50,8 @@ const SpatialProduct = () => {
                 ?.filter((spatialProduct) => spatialProduct.is_spatial)
                 //product short for new product
                 .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
-                //product slice
-                .slice(0, 8)
+                //product slice (latest/last 8 products)
+                .slice(-8)
                 //product looping
                 .map((spatialProduct) => (
                   <div className="col-md-6" key={spatialProduct.id}>

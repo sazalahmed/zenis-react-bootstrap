@@ -1,0 +1,52 @@
+.home_subscription {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.home_subscription .text {
+    text-align: center;
+    padding: 125px 20px 65px 20px;
+}
+
+.home_subscription .text h2,
+.home_subscription .text h2 span {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-align: center;
+}
+
+.home_subscription .text h2 span {
+    color: var(--themeColorTwo);
+    font-family: var(--cursiveFont);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.home_subscription .text p {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.home_subscription .text form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.home_subscription .text form input {
+    padding: 18px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.home_subscription .text form button {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}

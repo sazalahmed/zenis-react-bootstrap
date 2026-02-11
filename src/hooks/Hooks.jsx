@@ -33,7 +33,38 @@ const useData = () => {
       .then((data) => setFeatures(data));
   }, []);
 
-  return { categorys, products, banners, features };
+  // for Best Selling Product data load
+  const [bestSellingProduct, setbBestSellingProduct] = useState([]);
+  useEffect(() => {
+    fetch("bestSellingProduct.json")
+      .then((res) => res.json())
+      .then((data) => setbBestSellingProduct(data));
+  }, []);
+
+  // for brands data load
+  const [brands, setBrands] = useState([]);
+  useEffect(() => {
+    fetch("brands.json")
+      .then((res) => res.json())
+      .then((data) => setBrands(data));
+  }, []);
+  // for brands data load
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    fetch("blogs.json")
+      .then((res) => res.json())
+      .then((data) => setBlogs(data));
+  }, []);
+
+  return {
+    categorys,
+    products,
+    banners,
+    features,
+    bestSellingProduct,
+    brands,
+    blogs,
+  };
 };
 
 export default useData;

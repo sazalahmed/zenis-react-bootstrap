@@ -1,0 +1,105 @@
+.blog_item {
+    padding: 15px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background: var(--colorWhite);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin-top: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: #EFECE7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.blog_text {
+    width: 100%;
+    box-shadow: none !important;
+    padding: 25px 15px 5px 15px;
+    background: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_text .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.blog_text .top li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    color: var(--paraColor);
+}
+
+.blog_text .top li svg {
+    display: block;
+    margin-top: -4px;
+    margin-right: 3px;
+    font-size: 18px;
+    color: var(--colorYellow);
+}
+
+.blog_text .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.blog_text .bottom li a {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--paraColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.blog_text .bottom li a svg {
+    transform: rotate(45deg);
+}
+
+.blog_text .bottom li a:hover {
+    color: var(--themeColorTwo);
+}
+
+.blog_item:hover {
+    box-shadow: 0px 14px 70px 0px rgba(7, 28, 31, 0.14);
+    border-color: transparent;
+}

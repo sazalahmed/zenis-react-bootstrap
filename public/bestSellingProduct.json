@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "Men's trendy casual shoes",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_1.jpg",
+        "sku": "HRYUSG67EG-RD-S",
+        "original_price": 70.00,
+        "discount_price": 49.00,
+        "category": "Shoes",
+        "tag": "Clothing",
+        "colors": [
+            {
+                "name": "Red",
+                "code": "#DB4437"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 4.8,
+        "review_count": 93,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 2,
+        "title": "Kid's Western Party Dress",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_2.jpg",
+        "sku": "HRYUSG67EG-RD-M",
+        "original_price": 99.00,
+        "category": "Kid's",
+        "tag": "Clothing",
+        "colors": [
+            {
+                "name": "black",
+                "code": "#000000"
+            },
+            {
+                "name": "Blue",
+                "code": "#1C58F2"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "stock_status": "In Stock",
+        "rating": 5.0,
+        "review_count": 214,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    },
+    {
+        "id": 3,
+        "title": "western 2 Quarter Pant",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_3.jpg",
+        "sku": "HRYUSG67EG-RD-L",
+        "original_price": 57.00,
+        "discount_price": 25.00,
+        "category": "western",
+        "tag": "Clothing",
+        "colors": [
+            {
+                "name": "Pink",
+                "code": "##ffc0cb"
+            },
+            {
+                "name": "Green",
+                "code": "#638C34"
+            },
+            {
+                "name": "purple",
+                "code": "#800080"
+            },
+            {
+                "name": "Orange",
+                "code": "#ffa500"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "stock_status": "In Stock",
+        "rating": 3.6,
+        "review_count": 51,
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+    }
+]

@@ -4,20 +4,19 @@
     padding-right: 50px;
 }
 
-
 .spatial_products .section_heading h2::after {
     position: absolute;
     content: "";
     width: 190%;
     height: 1px;
     background: #ddd;
-    top: 50%;
+    top: 60%;
     left: 100%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
+    transform: translateY(-60%);
+    -webkit-transform: translateY(-60%);
+    -moz-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    -o-transform: translateY(-60%);
 }
 
 .special_product_banner {
@@ -90,4 +89,8 @@
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
+}
+
+.spatial_products .section_heading h2 span::after {
+    width: 125px;
 }
