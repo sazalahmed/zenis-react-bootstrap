@@ -43,13 +43,19 @@ const BestSelling = () => {
             <div className="best_selling_product_item_large">
               <img src={bestSellLargeImg} alt="" />
               <div className="text">
-                <Link className="title" to="/">
+                <Link
+                  className="title"
+                  to={`/product/${bestSellingProduct.id}`}
+                >
                   Best Sales Discount And Offers
                 </Link>
                 <p className="price">
                   $89.00 <del>$12.00</del>
                 </p>
-                <Link className="common_btn" to="/">
+                <Link
+                  className="common_btn"
+                  to={`/product/${bestSellingProduct.id}`}
+                >
                   buy now <FaArrowRightLong />
                 </Link>
               </div>

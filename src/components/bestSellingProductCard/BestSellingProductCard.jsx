@@ -8,8 +8,8 @@ const BestSellingProductCard = ({ bestSellProduct }) => {
     <div className="best_selling_product_item">
       <img src={bestSellProduct.image} alt="" />
       <div className="text">
-        <Link className="title" to="/">
-          Kid's Western Party Dress
+        <Link className="title" to={`/product/${bestSellProduct.id}`}>
+          {bestSellProduct.title}
         </Link>
         <p className="price">
           {typeof bestSellProduct.discount_price === "number" ? (
@@ -21,9 +21,9 @@ const BestSellingProductCard = ({ bestSellProduct }) => {
             <>${Number(bestSellProduct.original_price).toFixed(2)}</>
           )}
         </p>
-        <a className="buy_btn" href="shop_details.html">
+        <Link className="buy_btn" to={`/product/${bestSellProduct.id}`}>
           buy now <IoArrowUpSharp />
-        </a>
+        </Link>
       </div>
     </div>
   );

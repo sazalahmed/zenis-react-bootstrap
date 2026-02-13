@@ -15,19 +15,19 @@
         "colors": [
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -57,15 +57,15 @@
         "colors": [
             {
                 "name": "black",
-                "code": "#000000"
+                "code": "Black"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -94,19 +94,19 @@
         "colors": [
             {
                 "name": "Pink",
-                "code": "##ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
-                "name": "purple",
-                "code": "#800080"
+                "name": "Purple",
+                "code": "Purple"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -135,19 +135,19 @@
         "colors": [
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -177,15 +177,15 @@
         "colors": [
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -214,11 +214,11 @@
         "colors": [
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -247,19 +247,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -289,19 +289,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -331,19 +331,19 @@
         "colors": [
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -372,19 +372,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             }
         ],
         "sizes": [
@@ -412,19 +412,19 @@
         "colors": [
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -453,19 +453,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -494,19 +494,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -534,19 +534,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -576,19 +576,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -619,19 +619,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -661,19 +661,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -702,23 +702,23 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             }
         ],
         "sizes": [
@@ -746,19 +746,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -786,19 +786,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -828,19 +828,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -870,19 +870,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -909,19 +909,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             }
         ],
         "sizes": [
@@ -951,19 +951,19 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             },
             {
                 "name": "Orange",
-                "code": "#ffa500"
+                "code": "Orange"
             }
         ],
         "sizes": [
@@ -992,23 +992,23 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             }
         ],
         "sizes": [
@@ -1023,50 +1023,6 @@
     },
     {
         "id": 26,
-        "title": "AirBlur Matte Foundation",
-        "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_24.png",
-        "sku": "HRYUSG67EG-RD-M",
-        "original_price": 99.00,
-        "category": "Jewelry",
-        "tag": "Clothing",
-        "is_new": false,
-        "is_flash_sell": true,
-        "is_spatial": false,
-        "is_favourite": false,
-        "colors": [
-            {
-                "name": "Purple",
-                "code": "#800080"
-            },
-            {
-                "name": "Red",
-                "code": "#DB4437"
-            },
-            {
-                "name": "Green",
-                "code": "#638C34"
-            },
-            {
-                "name": "Pink",
-                "code": "#ffc0cb"
-            },
-            {
-                "name": "Blue",
-                "code": "#1C58F2"
-            }
-        ],
-        "sizes": [
-            "L",
-            "XL",
-            "2XL"
-        ],
-        "stock_status": "In Stock",
-        "rating": 5.0,
-        "review_count": 214,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
-    },
-    {
-        "id": 27,
         "title": "Men's trendy formal shoes",
         "image": "https://html.narzotech.com/zenis/assets/images/product_27.png",
         "sku": "HRYUSG67EG-RD-M",
@@ -1080,23 +1036,23 @@
         "colors": [
             {
                 "name": "Purple",
-                "code": "#800080"
+                "code": "Purple"
             },
             {
                 "name": "Red",
-                "code": "#DB4437"
+                "code": "Red"
             },
             {
                 "name": "Green",
-                "code": "#638C34"
+                "code": "Green"
             },
             {
                 "name": "Pink",
-                "code": "#ffc0cb"
+                "code": "Pink"
             },
             {
                 "name": "Blue",
-                "code": "#1C58F2"
+                "code": "Blue"
             }
         ],
         "sizes": [

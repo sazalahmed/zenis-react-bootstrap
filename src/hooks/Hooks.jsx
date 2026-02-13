@@ -4,7 +4,7 @@ const useData = () => {
   // for category data load
   const [categorys, setCategorys] = useState([]);
   useEffect(() => {
-    fetch("categorys.json")
+    fetch("/categorys.json")
       .then((res) => res.json())
       .then((data) => setCategorys(data));
   }, []);
@@ -12,7 +12,7 @@ const useData = () => {
   // for product data load
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("products.json")
+    fetch("/products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -20,7 +20,7 @@ const useData = () => {
   // for banner data load
   const [banners, setBanners] = useState([]);
   useEffect(() => {
-    fetch("bannerSlider.json")
+    fetch("/bannerSlider.json")
       .then((res) => res.json())
       .then((data) => setBanners(data));
   }, []);
@@ -28,7 +28,7 @@ const useData = () => {
   // for features data load
   const [features, setFeatures] = useState([]);
   useEffect(() => {
-    fetch("features.json")
+    fetch("/features.json")
       .then((res) => res.json())
       .then((data) => setFeatures(data));
   }, []);
@@ -36,7 +36,7 @@ const useData = () => {
   // for Best Selling Product data load
   const [bestSellingProduct, setbBestSellingProduct] = useState([]);
   useEffect(() => {
-    fetch("bestSellingProduct.json")
+    fetch("/bestSellingProduct.json")
       .then((res) => res.json())
       .then((data) => setbBestSellingProduct(data));
   }, []);
@@ -44,14 +44,14 @@ const useData = () => {
   // for brands data load
   const [brands, setBrands] = useState([]);
   useEffect(() => {
-    fetch("brands.json")
+    fetch("/brands.json")
       .then((res) => res.json())
       .then((data) => setBrands(data));
   }, []);
   // for brands data load
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    fetch("blogs.json")
+    fetch("/blogs.json")
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);

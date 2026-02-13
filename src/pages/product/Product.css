@@ -1,0 +1,208 @@
+.shop_filter_area h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.sidebar_status .form-check input,
+.sidebar_color ul li .form-check input,
+.sidebar_rating .form-check input {
+    padding: 0;
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+}
+
+.sidebar_status .form-check label {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.sidebar_category,
+.sidebar_color,
+.sidebar_status,
+.sidebar_rating {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.sidebar_category ul,
+.sidebar_color ul {
+    max-height: 245px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.sidebar_category ul::-webkit-scrollbar,
+.sidebar_color ul::-webkit-scrollbar {
+    scrollbar-width: thin !important;
+    background: #f8f8f8;
+    width: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.sidebar_category ul::-webkit-scrollbar-thumb,
+.sidebar_color ul::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.sidebar_category ul li,
+.sidebar_color ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.sidebar_category ul li,
+.sidebar_category ul li span,
+.sidebar_color ul li .form-check label,
+.sidebar_color ul li span,
+.sidebar_rating .form-check label {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    cursor: pointer;
+}
+
+.sidebar_category ul li span,
+.sidebar_color ul li span {
+    margin-right: 10px;
+}
+
+.sidebar_category ul li:hover,
+.sidebar_category ul li:hover span,
+.sidebar_category ul li.active,
+.sidebar_category ul li.active span,
+.sidebar_color ul li:hover .form-check label,
+.sidebar_color ul li:hover span,
+.sidebar_rating .form-check label:hover,
+.sidebar_status .form-check label:hover {
+    color: var(--themeColorTwo);
+}
+
+.sidebar_category ul li::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #ddd;
+    top: 9px;
+    left: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sidebar_category ul li:hover::after {
+    background: var(--themeColorTwo);
+}
+
+.sidebar_color ul li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar_color ul li .form-check input {
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin-top: 3px;
+}
+
+.sidebar_color ul li .form-check label {
+    cursor: pointer;
+}
+
+.sidebar_color ul li .form-check-input:checked[type=checkbox] {
+    background-size: 14px;
+}
+
+.sidebar_rating .form-check {
+    margin-bottom: 10px;
+}
+
+.sidebar_rating .form-check label {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: var(--paraColor);
+    font-family: var(--headingFont);
+}
+
+.sidebar_rating .form-check label i {
+    color: var(--ratingColor);
+}
+
+
+
+.form-check-input:focus {
+    border-color: var(--themeColorTwo);
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--themeColorTwo);
+    border-color: var(--themeColorTwo);
+}
+
+
+
+.product_page_top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product_page_top p {
+    margin-right: auto;
+}
+
+.product_page_top select {
+    margin-left: 15px;
+}

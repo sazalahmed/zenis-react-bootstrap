@@ -52,8 +52,8 @@ const FavouriteProductCard = ({ product }) => {
         </ul>
       </div>
       <div className="product_text">
-        <Link className="title" to="/">
-          cherry fabric western tops
+        <Link className="title" to={`/product/${product.id}`}>
+          {product.title}
         </Link>
         <p className="price">
           {typeof product.discount_price === "number" ? (

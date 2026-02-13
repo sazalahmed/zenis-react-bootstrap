@@ -1,0 +1,66 @@
+.page_banner {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.page_banner_overlay {
+    background: rgb(7 28 31 / 38%);
+    padding: 50px 0px 52px 0px;
+}
+
+.page_banner_text h1 {
+    color: var(--colorWhite);
+    font-size: 54px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.page_banner_text ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 30px;
+}
+
+.page_banner_text ul li a {
+    color: var(--colorWhite);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    opacity: .9;
+}
+
+.page_banner_text ul li a:hover {
+    opacity: 1;
+}
+
+.page_banner_text ul li a svg {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.page_banner_text ul li a::after {
+    position: absolute;
+    content: "-";
+    font-size: 24px;
+    color: var(--colorWhite);
+    top: -1px;
+    right: -18px;
+}
+
+.page_banner_text ul li:last-child a::after {
+    display: none;
+}

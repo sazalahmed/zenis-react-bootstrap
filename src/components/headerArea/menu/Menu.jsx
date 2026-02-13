@@ -55,9 +55,9 @@ const Menu = () => {
                 <ul className="menu_item">
                   <li>
                     <Link className="active" to="/">
-                      home <IoIosArrowDown />
+                      home
                     </Link>
-                    <ul className="menu_droapdown">
+                    {/* <ul className="menu_droapdown">
                       <li>
                         <Link className="active" to="/">
                           Clothing Fashion 01
@@ -75,36 +75,10 @@ const Menu = () => {
                       <li>
                         <Link to="/">Gadgets Shop</Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link to="/">
-                      shop <IoIosArrowDown />
-                    </Link>
-                    <ul className="menu_droapdown">
-                      <li>
-                        <Link to="/">Shop</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Shop Details</Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      Stores <IoIosArrowDown />
-                    </Link>
-                    <ul className="menu_droapdown">
-                      <li>
-                        <Link to="/">Store</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Store Details</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Become a Vendor</Link>
-                      </li>
-                    </ul>
+                    <Link to="/product">shop</Link>
                   </li>
                   <li>
                     <Link to="/">Flash Deals</Link>
@@ -135,17 +109,7 @@ const Menu = () => {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/">
-                      blog <IoIosArrowDown />
-                    </Link>
-                    <ul className="menu_droapdown">
-                      <li>
-                        <Link to="/">blog classic</Link>
-                      </li>
-                      <li>
-                        <Link to="/">blog right sidebar</Link>
-                      </li>
-                    </ul>
+                    <Link to="/">blog</Link>
                   </li>
                   <li>
                     <Link to="/">contact</Link>

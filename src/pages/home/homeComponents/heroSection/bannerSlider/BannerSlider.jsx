@@ -30,7 +30,7 @@ const BannerSlider = () => {
                 <div className="banner_slider_2_text">
                   <h3>{banner.subHeading}</h3>
                   <h1>{banner.heading}</h1>
-                  <Link className="common_btn" to="/">
+                  <Link className="common_btn" to={`/product/${banner.id}`}>
                     Shop Now <FaArrowRightLong />
                   </Link>
                 </div>
