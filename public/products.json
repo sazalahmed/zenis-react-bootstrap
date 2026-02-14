@@ -37,10 +37,19 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "HRYUSG67EG",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus.",
+        "tags": [
+            "clothing",
+            "fashion",
+            "gadgets",
+            "electronics",
+            "jewelry",
+            "grocery"
+        ]
     },
     {
         "id": 2,
@@ -73,10 +82,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 214,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "DGYDSG67EG",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 3,
@@ -114,10 +124,11 @@
             "M",
             "L"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 3.6,
         "review_count": 51,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "DFGSGFDG54",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 4,
@@ -157,10 +168,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "Out of Stock",
+        "stock_status": false,
         "rating": 4.2,
         "review_count": 32,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "TRY1TRYTRYR",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 5,
@@ -193,10 +205,11 @@
             "M",
             "L"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.9,
         "review_count": 245,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "HFGK5564564HHH",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 6,
@@ -226,10 +239,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "FGDD5487DS",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 7,
@@ -268,10 +282,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "Out of Stock",
+        "stock_status": false,
         "rating": 2.9,
         "review_count": 19,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "HRYUSG67EG",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 8,
@@ -310,10 +325,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "5544VFFDG",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 9,
@@ -351,10 +367,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 3.7,
         "review_count": 200,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "GF45H65G",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 10,
@@ -365,7 +382,7 @@
         "discount_price": 35.00,
         "category": "western",
         "tag": "Clothing",
-        "is_new": true,
+        "is_new": false,
         "is_flash_sell": true,
         "is_spatial": true,
         "is_favourite": false,
@@ -392,10 +409,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 259,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "657545GDGFD",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 11,
@@ -432,10 +450,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "Out of Stock",
+        "stock_status": false,
         "rating": 3.7,
         "review_count": 102,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "GFG84D8GDFG",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 12,
@@ -473,10 +492,11 @@
             "M",
             "L"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 3.6,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "TY545TYTRY",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 13,
@@ -514,10 +534,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 516,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "565445GFDH",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 14,
@@ -555,10 +576,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.4,
         "review_count": 87,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "TRY545BGFF",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 15,
@@ -598,10 +620,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 28,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "VGFDG45DGF",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 16,
@@ -640,10 +663,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 108,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "TTR5YTRYRY",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 17,
@@ -682,10 +706,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "RTET544454",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 18,
@@ -693,6 +718,7 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_18.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
+        "discount_price": 65.00,
         "category": "women's Fashion",
         "tag": "Clothing",
         "is_new": true,
@@ -726,10 +752,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 214,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "56454FG4FD",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 19,
@@ -766,10 +793,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 3.6,
         "review_count": 51,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "6756454GDF",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 20,
@@ -808,10 +836,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "Out of Stock",
+        "stock_status": false,
         "rating": 4.2,
         "review_count": 32,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "GHG456TYY6",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 21,
@@ -850,10 +879,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "Out of Stock",
+        "stock_status": false,
         "rating": 4.2,
         "review_count": 32,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "RTYR455RTE",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 22,
@@ -861,6 +891,7 @@
         "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_6.png",
         "sku": "HRYUSG67EG-RD-XL",
         "original_price": 65.00,
+        "discount_price": 59.00,
         "category": "Jewelry",
         "tag": "Clothing",
         "is_new": false,
@@ -889,10 +920,11 @@
             "5 Inch",
             "8 Inch"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.2,
         "review_count": 79,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "56445GFVXVX",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 23,
@@ -930,10 +962,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 108,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "4564564CZC43",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 24,
@@ -972,10 +1005,11 @@
             "L",
             "XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 4.8,
         "review_count": 93,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "6765GFHGF4",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 25,
@@ -983,6 +1017,7 @@
         "image": "https://html.narzotech.com/zenis/assets/images/beauty_pro_24.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
+        "discount_price": 85.00,
         "category": "Jewelry",
         "tag": "Clothing",
         "is_new": false,
@@ -1016,10 +1051,11 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 214,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "45654F545FD",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     },
     {
         "id": 26,
@@ -1027,6 +1063,7 @@
         "image": "https://html.narzotech.com/zenis/assets/images/product_27.png",
         "sku": "HRYUSG67EG-RD-M",
         "original_price": 99.00,
+        "discount_price": 79.00,
         "category": "Shoes",
         "tag": "Clothing",
         "is_new": false,
@@ -1060,9 +1097,18 @@
             "XL",
             "2XL"
         ],
-        "stock_status": "In Stock",
+        "stock_status": true,
         "rating": 5.0,
         "review_count": 214,
-        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget."
+        "product_sku": "655454VFVV",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus.",
+        "tags": [
+            "clothing",
+            "fashion",
+            "gadgets",
+            "electronics",
+            "jewelry",
+            "grocery"
+        ]
     }
 ]

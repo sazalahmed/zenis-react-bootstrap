@@ -8,6 +8,10 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Product from "./pages/product/Product";
 import ProductDetails from "./pages/productDetails/ProductDetails";
+import FlashSell from "./pages/flashSell/FlashSell";
+import Brand from "./pages/brand/Brand";
+import Blog from "./pages/blog/Blog";
+import BlogDetails from "./pages/blogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +23,10 @@ const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/product", element: <Product /> },
       { path: "/product/:id", element: <ProductDetails /> },
+      { path: "/flash-sell", element: <FlashSell /> },
+      { path: "/brand", element: <Brand /> },
+      { path: "/blog", element: <Blog /> },
+      { path: "/blog/:id", element: <BlogDetails /> },
     ],
   },
 ]);

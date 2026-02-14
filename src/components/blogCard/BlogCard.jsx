@@ -24,7 +24,7 @@ const BlogCard = ({ blog }) => {
               {blog.created_at}
             </li>
           </ul>
-          <Link className="title" to="/">
+          <Link className="title" to={`/blog/${blog.id}`}>
             {blog.title}
           </Link>
           <ul className="bottom">

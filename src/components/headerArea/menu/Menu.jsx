@@ -81,7 +81,7 @@ const Menu = () => {
                     <Link to="/product">shop</Link>
                   </li>
                   <li>
-                    <Link to="/">Flash Deals</Link>
+                    <Link to="/flash-sell">Flash Deals</Link>
                   </li>
                   <li>
                     <Link to="/">
@@ -89,30 +89,30 @@ const Menu = () => {
                     </Link>
                     <ul className="menu_droapdown">
                       <li>
-                        <Link to="/">about us</Link>
+                        <Link to="/about">about us</Link>
                       </li>
                       <li>
-                        <Link to="/">Category</Link>
+                        <Link to="/category">Category</Link>
                       </li>
                       <li>
-                        <Link to="/">Brand</Link>
+                        <Link to="/brand">Brand</Link>
                       </li>
                       <li>
-                        <Link to="/">cart view</Link>
+                        <Link to="/cart">cart view</Link>
                       </li>
                       <li>
-                        <Link to="/">wishlist</Link>
+                        <Link to="/wishlist">wishlist</Link>
                       </li>
                       <li>
-                        <Link to="/">compare</Link>
+                        <Link to="/compare">compare</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link to="/">blog</Link>
+                    <Link to="/blog">blog</Link>
                   </li>
                   <li>
-                    <Link to="/">contact</Link>
+                    <Link to="/contact">contact</Link>
                   </li>
                 </ul>
                 <ul className="menu_icon">

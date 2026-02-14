@@ -65,7 +65,7 @@ const HomeFlashSell = () => {
                 />
               </div>
               <div className="view_all_btn_area">
-                <Link className="view_all_btn" to="/">
+                <Link className="view_all_btn" to="/flash-sell">
                   View all
                 </Link>
               </div>
