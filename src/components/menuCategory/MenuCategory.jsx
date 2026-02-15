@@ -14,7 +14,7 @@ const MenuCategory = () => {
       <ul className="menu_cat_item">
         {categorys?.map((category) => (
           <li key={category.id}>
-            <Link to="/">
+            <Link to="/product">
               <span>
                 <img src={category.image} alt="Zenis" />
               </span>
@@ -24,7 +24,7 @@ const MenuCategory = () => {
           </li>
         ))}
         <li className="all_category">
-          <Link to="/">
+          <Link to="/category">
             View All Categories <FaArrowRight />
           </Link>
         </li>

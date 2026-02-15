@@ -24,7 +24,7 @@ const SpatialProduct = () => {
           </div>
           <div className="col-xl-6 col-sm-3">
             <div className="view_all_btn_area">
-              <Link className="view_all_btn" to="/">
+              <Link className="view_all_btn" to="/product">
                 View all
               </Link>
             </div>
@@ -55,7 +55,7 @@ const SpatialProduct = () => {
                 //product looping
                 .map((spatialProduct) => (
                   <div className="col-md-6" key={spatialProduct.id}>
-                    <SpatialProductCard spatialProduct={spatialProduct} />
+                    <SpatialProductCard product={spatialProduct} />
                   </div>
                 ))}
             </div>

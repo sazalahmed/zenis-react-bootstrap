@@ -3,15 +3,15 @@ import "./SpatialProductCard.css";
 import { IoStar, IoStarHalf, IoStarOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
-const SpatialProductCard = ({ spatialProduct }) => {
+const SpatialProductCard = ({ product }) => {
   const hasDiscount =
-    typeof spatialProduct.discount_price === "number" &&
-    spatialProduct.discount_price < spatialProduct.original_price;
+    typeof product.discount_price === "number" &&
+    product.discount_price < product.original_price;
 
   const discountPercent = hasDiscount
     ? Math.round(
-        ((spatialProduct.original_price - spatialProduct.discount_price) /
-          spatialProduct.original_price) *
+        ((product.original_price - product.discount_price) /
+          product.original_price) *
           100,
       )
     : null;
@@ -20,17 +20,20 @@ const SpatialProductCard = ({ spatialProduct }) => {
   return (
     <>
       <div className="special_product_item">
-        <div className="special_product_img">
-          <img src={spatialProduct.image} alt="Product" />
+        <Link
+          className="special_product_img"
+          to={`/product-details/${product.id}`}
+        >
+          <img src={product.image} alt="Product" />
           {hasDiscount && (
             <span className="discount">
               <b>save</b> {discountPercent}%
             </span>
           )}
-        </div>
+        </Link>
         <div className="special_product_text">
-          <Link className="title" to="/">
-            {spatialProduct.title}
+          <Link className="title" to={`/product-details/${product.id}`}>
+            {product.title}
           </Link>
           <span>
             <IoStar />
@@ -39,13 +42,13 @@ const SpatialProductCard = ({ spatialProduct }) => {
             <IoStarHalf />
             <IoStarOutline />
           </span>
-          {typeof spatialProduct.discount_price === "number" ? (
+          {typeof product.discount_price === "number" ? (
             <p>
-              ${Number(spatialProduct.discount_price).toFixed(2)}
-              <del>${Number(spatialProduct.original_price).toFixed(2)}</del>
+              ${Number(product.discount_price).toFixed(2)}
+              <del>${Number(product.original_price).toFixed(2)}</del>
             </p>
           ) : (
-            <p>${Number(spatialProduct.original_price).toFixed(2)}</p>
+            <p>${Number(product.original_price).toFixed(2)}</p>
           )}
         </div>
       </div>

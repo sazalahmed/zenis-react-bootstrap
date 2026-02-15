@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "How To Choose The Right Sofa for your home",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_12.png",
+        "details_thumbnail": "https://html.narzotech.com/zenis/assets/images/blog_details_1_img.jpg",
+        "categoty": "fashion",
+        "author": "Jhon Deo",
+        "created_at": "24 Mar 2026",
+        "tags": [
+            "sofa",
+            "home",
+            "furniture"
+        ],
+        "is_popular": true,
+        "total_comment": "15"
+    }
+]

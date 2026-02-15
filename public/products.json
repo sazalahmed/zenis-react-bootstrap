@@ -49,6 +49,30 @@
             "electronics",
             "jewelry",
             "grocery"
+        ],
+        "stock": 57,
+        "reviews": [
+            {
+                "rating": 2,
+                "comment": "Very unhappy with my purchase!",
+                "date": "2024-05-23T08:56:21.618Z",
+                "reviewerName": "John Doe",
+                "reviewerEmail": "john.doe@x.dummyjson.com"
+            },
+            {
+                "rating": 2,
+                "comment": "Not as described!",
+                "date": "2024-05-23T08:56:21.618Z",
+                "reviewerName": "Nolan Gonzalez",
+                "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+            },
+            {
+                "rating": 5,
+                "comment": "Very satisfied!",
+                "date": "2024-05-23T08:56:21.618Z",
+                "reviewerName": "Scarlett Wright",
+                "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+            }
         ]
     },
     {
@@ -1110,5 +1134,139 @@
             "jewelry",
             "grocery"
         ]
+    },
+    {
+        "id": 27,
+        "title": "Men's trendy casual shoes",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_1.jpg",
+        "sku": "HRYUSG67EG-BK-XL",
+        "original_price": 88.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": true,
+        "best_selling": true,
+        "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "Purple"
+            },
+            {
+                "name": "Red",
+                "code": "Red"
+            },
+            {
+                "name": "Green",
+                "code": "Green"
+            },
+            {
+                "name": "Pink",
+                "code": "Pink"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "stock_status": true,
+        "rating": 5.0,
+        "review_count": 108,
+        "product_sku": "4564564CZC43",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
+    },
+    {
+        "id": 28,
+        "title": "Kid's Western Party Dress",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_2.jpg",
+        "sku": "HRYUSG67EG-RD-S",
+        "original_price": 70.00,
+        "discount_price": 65.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "best_selling": true,
+        "is_flash_sell": false,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "Purple"
+            },
+            {
+                "name": "Pink",
+                "code": "Pink"
+            },
+            {
+                "name": "Blue",
+                "code": "Blue"
+            },
+            {
+                "name": "Orange",
+                "code": "Orange"
+            }
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "stock_status": true,
+        "rating": 4.8,
+        "review_count": 93,
+        "product_sku": "6765GFHGF4",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
+    },
+    {
+        "id": 29,
+        "title": "western 2 Quarter Pant",
+        "image": "https://html.narzotech.com/zenis/assets/images/best_sell_pro_img_3.jpg",
+        "sku": "HRYUSG67EG-RD-M",
+        "original_price": 99.00,
+        "discount_price": 85.00,
+        "category": "Jewelry",
+        "tag": "Clothing",
+        "is_new": false,
+        "best_selling": true,
+        "is_flash_sell": true,
+        "is_spatial": false,
+        "is_favourite": false,
+        "colors": [
+            {
+                "name": "Purple",
+                "code": "Purple"
+            },
+            {
+                "name": "Red",
+                "code": "Red"
+            },
+            {
+                "name": "Green",
+                "code": "Green"
+            },
+            {
+                "name": "Pink",
+                "code": "Pink"
+            },
+            {
+                "name": "Blue",
+                "code": "Blue"
+            }
+        ],
+        "sizes": [
+            "L",
+            "XL",
+            "2XL"
+        ],
+        "stock_status": true,
+        "rating": 5.0,
+        "review_count": 214,
+        "product_sku": "45654F545FD",
+        "description": "Auctor urna nunc id cursus. Scelerisque purus semper eget duis at pharetra vel turpis nunc eget. Auctor urna nunc id cursus Scelerisque purus."
     }
 ]

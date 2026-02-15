@@ -5,7 +5,7 @@ import Slider from "react-slick";
 
 const ProductCategory = ({ category }) => {
   return (
-    <Link className="category_item" to="/">
+    <Link className="category_item" to="/category">
       <div className="img">
         <img src={category.image} alt="Zenis" />
       </div>

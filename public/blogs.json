@@ -3,10 +3,17 @@
         "id": 1,
         "title": "How To Choose The Right Sofa for your home",
         "image": "https://html.narzotech.com/zenis/assets/images/blog_img_12.png",
+        "details_thumbnail": "https://html.narzotech.com/zenis/assets/images/blog_details_1_img.jpg",
         "categoty": "fashion",
         "author": "Jhon Deo",
         "created_at": "24 Mar 2026",
-        "tital_comment": "15"
+        "tags": [
+            "sofa",
+            "home",
+            "furniture"
+        ],
+        "is_popular": true,
+        "total_comment": "15"
     },
     {
         "id": 2,
@@ -15,7 +22,13 @@
         "categoty": "beauty",
         "author": "Adnan Alvi",
         "created_at": "12 Mar 2026",
-        "tital_comment": "27"
+        "tags": [
+            "hair",
+            "curls",
+            "beauty"
+        ],
+        "is_popular": false,
+        "total_comment": "27"
     },
     {
         "id": 3,
@@ -24,7 +37,13 @@
         "categoty": "fashion",
         "author": "Hasib Sing",
         "created_at": "17 Jan 2026",
-        "tital_comment": "04"
+        "tags": [
+            "hair",
+            "curls",
+            "fashion"
+        ],
+        "is_popular": false,
+        "total_comment": "04"
     },
     {
         "id": 4,
@@ -33,7 +52,13 @@
         "categoty": "cosmetics",
         "author": "Jhon Deo",
         "created_at": "29 Dec 2026",
-        "tital_comment": "53"
+        "tags": [
+            "clothes",
+            "climate change",
+            "fashion"
+        ],
+        "is_popular": true,
+        "total_comment": "53"
     },
     {
         "id": 5,
@@ -42,7 +67,13 @@
         "categoty": "denim",
         "author": "Hasib Sing",
         "created_at": "13 Feb 2026",
-        "tital_comment": "81"
+        "tags": [
+            "clothes",
+            "climate change",
+            "denim"
+        ],
+        "is_popular": true,
+        "total_comment": "81"
     },
     {
         "id": 6,
@@ -51,6 +82,117 @@
         "categoty": "Bag",
         "author": "Smith Jhon",
         "created_at": "27 Aug 2026",
-        "tital_comment": "30"
+        "tags": [
+            "foundation",
+            "formula",
+            "skin"
+        ],
+        "is_popular": false,
+        "total_comment": "30"
+    },
+    {
+        "id": 7,
+        "title": "How To Choose The Right Sofa for your home",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_4.png",
+        "categoty": "jackets",
+        "author": "sumit saha",
+        "created_at": "11 dec 2026",
+        "tags": [
+            "sofa",
+            "home",
+            "furniture"
+        ],
+        "is_popular": false,
+        "total_comment": "54"
+    },
+    {
+        "id": 8,
+        "title": "Which foundation formula is right for your skin?",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_7.png",
+        "categoty": "oil",
+        "author": "shahed ali",
+        "created_at": "27 aug 2026",
+        "tags": [
+            "foundation",
+            "formula",
+            "skin"
+        ],
+        "is_popular": true,
+        "total_comment": "22"
+    },
+    {
+        "id": 9,
+        "title": "How To Choose The Right Sofa for your home",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_8.png",
+        "categoty": "fashion",
+        "author": "Jhon Deo",
+        "created_at": "24 Mar 2026",
+        "tags": [
+            "sofa",
+            "home",
+            "furniture"
+        ],
+        "is_popular": false,
+        "total_comment": "15"
+    },
+    {
+        "id": 10,
+        "title": "How to Plop Hair for Bouncy, Beautiful Curls",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_9.png",
+        "categoty": "beauty",
+        "author": "Adnan Alvi",
+        "created_at": "12 Mar 2026",
+        "tags": [
+            "hair",
+            "curls",
+            "beauty"
+        ],
+        "is_popular": true,
+        "total_comment": "27"
+    },
+    {
+        "id": 11,
+        "title": "Fast fashion: How clothes are linked to climate change",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_10.png",
+        "categoty": "fashion",
+        "author": "Hasib Sing",
+        "created_at": "17 Jan 2026",
+        "tags": [
+            "clothes",
+            "climate change",
+            "fashion"
+        ],
+        "is_popular": false,
+        "total_comment": "04"
+    },
+    {
+        "id": 12,
+        "title": "Which foundation formula is right for your skin?",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_11.png",
+        "categoty": "cosmetics",
+        "author": "Jhon Deo",
+        "created_at": "29 Dec 2026",
+        "tags": [
+            "foundation",
+            "formula",
+            "skin"
+        ],
+        "is_popular": false,
+        "total_comment": "53"
+    },
+    {
+        "id": 13,
+        "title": "Plop Hair for Bouncy, Beautiful",
+        "image": "https://html.narzotech.com/zenis/assets/images/blog_img_9.png",
+        "categoty": "cosmetics",
+        "author": "Smith Jhon",
+        "created_at": "27 Aug 2026",
+        "tags": [
+            "foundation",
+            "formula",
+            "skin"
+        ],
+        "is_popular": true,
+        "total_comment": "30"
     }
 ]

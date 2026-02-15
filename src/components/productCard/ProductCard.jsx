@@ -52,7 +52,7 @@ const ProductCard = ({ product }) => {
         </ul>
       </div>
       <div className="product_text">
-        <Link className="title" to={`/product/${product.id}`}>
+        <Link className="title" to={`/product-details/${product.id}`}>
           {product.title}
         </Link>
         <p className="price">

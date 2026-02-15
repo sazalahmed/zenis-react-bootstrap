@@ -12,6 +12,7 @@ import FlashSell from "./pages/flashSell/FlashSell";
 import Brand from "./pages/brand/Brand";
 import Blog from "./pages/blog/Blog";
 import BlogDetails from "./pages/blogDetails/BlogDetails";
+import Category from "./pages/category/Category";
 
 const router = createBrowserRouter([
   {
@@ -22,11 +23,12 @@ const router = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/contact", element: <Contact /> },
       { path: "/product", element: <Product /> },
-      { path: "/product/:id", element: <ProductDetails /> },
+      { path: "/product-details/:id", element: <ProductDetails /> },
       { path: "/flash-sell", element: <FlashSell /> },
       { path: "/brand", element: <Brand /> },
       { path: "/blog", element: <Blog /> },
-      { path: "/blog/:id", element: <BlogDetails /> },
+      { path: "/blog-details/:id", element: <BlogDetails /> },
+      { path: "/category", element: <Category /> },
     ],
   },
 ]);

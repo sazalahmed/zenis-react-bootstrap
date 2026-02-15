@@ -2,13 +2,13 @@ import React from "react";
 import "./BestSelling.css";
 import SectionHeading from "./../../../../components/sectionHeadng/SectionHeading";
 import { Link } from "react-router-dom";
-import useData from "./../../../../hooks/Hooks";
+import useData from "../../../../hooks/Hooks";
 import BestSellingProductCard from "../../../../components/bestSellingProductCard/BestSellingProductCard";
 import bestSellLargeImg from "../../../../assets/images/best_sell_pro_img_4.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const BestSelling = () => {
-  const { bestSellingProduct } = useData();
+  const { products } = useData();
 
   return (
     <div className="best_selling mt-5 pt-5">
@@ -23,7 +23,7 @@ const BestSelling = () => {
           </div>
           <div className="col-xl-6 col-sm-3">
             <div className="view_all_btn_area">
-              <Link className="view_all_btn" to="/">
+              <Link className="view_all_btn" to="/product">
                 View all
               </Link>
             </div>
@@ -32,30 +32,28 @@ const BestSelling = () => {
         <div className="row mt-1">
           <div className="col-xl-7">
             <div className="row">
-              {bestSellingProduct.map((product) => (
-                <div className="col-xl-4" key={product.id}>
-                  <BestSellingProductCard bestSellProduct={product} />
-                </div>
-              ))}
+              {products
+                ?.filter((product) => product.best_selling)
+                .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+                .slice(-3)
+                .map((product) => (
+                  <div className="col-xl-4" key={product.id}>
+                    <BestSellingProductCard product={product} />
+                  </div>
+                ))}
             </div>
           </div>
           <div className="col-xl-5">
             <div className="best_selling_product_item_large">
-              <img src={bestSellLargeImg} alt="" />
+              <img src={bestSellLargeImg} alt="image" />
               <div className="text">
-                <Link
-                  className="title"
-                  to={`/product/${bestSellingProduct.id}`}
-                >
+                <Link className="title" to="#">
                   Best Sales Discount And Offers
                 </Link>
                 <p className="price">
                   $89.00 <del>$12.00</del>
                 </p>
-                <Link
-                  className="common_btn"
-                  to={`/product/${bestSellingProduct.id}`}
-                >
+                <Link className="common_btn" to="#">
                   buy now <FaArrowRightLong />
                 </Link>
               </div>
