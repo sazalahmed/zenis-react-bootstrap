@@ -444,3 +444,29 @@
     display: block;
     width: 17px;
 }
+
+.details_btn_area a:disabled {
+    background: #ddd !important;
+    color: #999 !important;
+    border-color: #ddd !important;
+    opacity: 0.6;
+}
+
+.details_btn_area .common_btn[aria-disabled="true"] {
+    background: #ddd !important;
+    color: #999 !important;
+    border-color: #ddd !important;
+    opacity: 0.6;
+}
+
+.details_btn_area .common_btn[aria-disabled="true"] svg {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.details_btn_area .common_btn[aria-disabled="true"]::after {
+    display: none;
+}

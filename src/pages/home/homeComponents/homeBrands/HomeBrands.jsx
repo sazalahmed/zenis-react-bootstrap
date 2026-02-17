@@ -31,8 +31,8 @@ const HomeBrands = () => {
                   (a, b) => new Date(b.created_at) - new Date(a.created_at),
                 )
                 .slice(-16)
-                .map((brand) => (
-                  <li key={brand.id}>
+                .map((brand, index) => (
+                  <li key={index}>
                     <Link to="/">
                       <BrandCard brand={brand} />
                     </Link>

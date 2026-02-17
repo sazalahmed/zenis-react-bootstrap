@@ -30,8 +30,8 @@ const HomeBlogs = () => {
           {blogs
             ?.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
             .slice(-4)
-            .map((blog) => (
-              <div className="col-xl-3">
+            .map((blog, index) => (
+              <div className="col-xl-3" key={index}>
                 <BlogCard blog={blog} />
               </div>
             ))}

@@ -1,3 +1,7 @@
+.spatial_products {
+    overflow: hidden;
+}
+
 .spatial_products .section_heading h2 {
     position: relative;
     display: inline-block;

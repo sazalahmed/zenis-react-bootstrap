@@ -53,8 +53,8 @@ const SpatialProduct = () => {
                 //product slice (latest/last 8 products)
                 .slice(-8)
                 //product looping
-                .map((spatialProduct) => (
-                  <div className="col-md-6" key={spatialProduct.id}>
+                .map((spatialProduct, index) => (
+                  <div className="col-md-6" key={index}>
                     <SpatialProductCard product={spatialProduct} />
                   </div>
                 ))}

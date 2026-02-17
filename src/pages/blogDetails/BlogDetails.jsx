@@ -11,7 +11,10 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaPinterestP,
+  FaArrowRightLong,
 } from "react-icons/fa6";
+
+import blogSidebarImg from "../../assets/images/blog_sidebar_add_img.png";
 
 const BlogDetails = () => {
   // receive blogs from hooks
@@ -38,10 +41,7 @@ const BlogDetails = () => {
             <div className="col-xl-9 col-lg-8">
               <div className="blog_details_left">
                 <div className="blog_details_img_1">
-                  <img
-                    src={findBlog?.details_thumbnail}
-                    alt={findBlog?.title}
-                  />
+                  <img src={findBlog?.image} alt={findBlog?.title} />
                 </div>
                 <ul className="blog_details_top d-flex flex-wrap">
                   <li>
@@ -331,7 +331,7 @@ const BlogDetails = () => {
                 <div className="blog_details_right">
                   <form action="#">
                     <input type="text" placeholder="Search..." />
-                    <button type="submit">
+                    <button type="button">
                       <LuSearch />
                     </button>
                   </form>
@@ -349,9 +349,12 @@ const BlogDetails = () => {
                           className="popular_blog d-flex flex-wrap"
                           key={blog.id}
                         >
-                          <div className="popular_blog_img">
+                          <Link
+                            className="popular_blog_img"
+                            to={`/blog-details/${blog.id}`}
+                          >
                             <img src={blog.image} alt={blog.title} />
-                          </div>
+                          </Link>
                           <div className="popular_blog_text">
                             <p>
                               <span>
@@ -359,7 +362,10 @@ const BlogDetails = () => {
                               </span>
                               {blog.created_at}
                             </p>
-                            <Link className="title" to="/">
+                            <Link
+                              className="title"
+                              to={`/blog-details/${blog.id}`}
+                            >
                               {blog.title}
                             </Link>
                           </div>
@@ -367,7 +373,7 @@ const BlogDetails = () => {
                       ))}
                   </div>
                   <div className="blog_details_right_header">
-                    <h3>Property Categories</h3>
+                    <h3>Popular Categories</h3>
                     <ul className="sidebar_blog_category">
                       <ul className="sidebar_blog_category">
                         {Object.entries(popularCategoryCount || {})
@@ -396,16 +402,12 @@ const BlogDetails = () => {
                   </div>
                   <div className="blog_details_right_header">
                     <div className="blog_seidebar_add">
-                      {/* <img src="assets/images/blog_sidebar_add_img.png" alt="blog add"
-                                        className="img-fluid w-100"> */}
+                      <img src={blogSidebarImg} alt="Blog Sidebar Add" />
                       <div className="text">
                         <h4>Will help enhance your beauty.</h4>
-                        <Link className="common_btn" to="/">
+                        <Link className="common_btn" to="#">
                           shop now
-                          <i
-                            className="fas fa-long-arrow-right"
-                            aria-hidden="true"
-                          ></i>
+                          <FaArrowRightLong />
                         </Link>
                       </div>
                     </div>

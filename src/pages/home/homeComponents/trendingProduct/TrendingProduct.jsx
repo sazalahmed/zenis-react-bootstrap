@@ -43,8 +43,9 @@ const TrendingProduct = () => {
             <div className="filter_btn_area d-flex flex-wrap gap-2 justify-content-end">
               {categorys
                 ?.filter((category) => category.is_trending)
-                .map((category) => (
+                .map((category, index) => (
                   <button
+                    key={index}
                     onClick={() => handleCategoryName(category?.title)}
                     className={categoryName === category.title ? "active" : ""}
                   >
@@ -59,8 +60,8 @@ const TrendingProduct = () => {
             //product slice (0 to 10 products)
             .slice(0, 10)
             //product looping
-            .map((product) => (
-              <div className="col-xl-1-5" key={product.id}>
+            .map((product, index) => (
+              <div className="col-xl-1-5" key={index}>
                 <ProductCard product={product} />
               </div>
             ))}

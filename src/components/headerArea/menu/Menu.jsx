@@ -57,25 +57,6 @@ const Menu = () => {
                     <Link className="active" to="/">
                       home
                     </Link>
-                    {/* <ul className="menu_droapdown">
-                      <li>
-                        <Link className="active" to="/">
-                          Clothing Fashion 01
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/">Clothing Fashion 02</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Grocery Store</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Beauty & Cosmetics</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Gadgets Shop</Link>
-                      </li>
-                    </ul> */}
                   </li>
                   <li>
                     <Link to="/product">shop</Link>
@@ -84,29 +65,7 @@ const Menu = () => {
                     <Link to="/flash-sell">Flash Deals</Link>
                   </li>
                   <li>
-                    <Link to="/">
-                      pages <IoIosArrowDown />
-                    </Link>
-                    <ul className="menu_droapdown">
-                      <li>
-                        <Link to="/about">about us</Link>
-                      </li>
-                      <li>
-                        <Link to="/category">Category</Link>
-                      </li>
-                      <li>
-                        <Link to="/brand">Brand</Link>
-                      </li>
-                      <li>
-                        <Link to="/cart">cart view</Link>
-                      </li>
-                      <li>
-                        <Link to="/wishlist">wishlist</Link>
-                      </li>
-                      <li>
-                        <Link to="/compare">compare</Link>
-                      </li>
-                    </ul>
+                    <Link to="/about">about us</Link>
                   </li>
                   <li>
                     <Link to="/blog">blog</Link>
@@ -117,31 +76,31 @@ const Menu = () => {
                 </ul>
                 <ul className="menu_icon">
                   <li>
-                    <Link to="/">
+                    <Link to="/compare">
                       <b>
                         <img src={compareIcon} alt="Compare" />
                       </b>
-                      <span>2</span>
+                      {/* <span>2</span> */}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/wishlist">
                       <b>
                         <img src={loveIcon} alt="Wishlist" />
                       </b>
-                      <span>5</span>
+                      {/* <span>0</span> */}
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/cart">
                       <b>
                         <img src={cartIcon} alt="Cart" />
                       </b>
-                      <span>3</span>
+                      {/* <span>3</span> */}
                     </Link>
                   </li>
                   <li>
-                    <Link className="user" to="/">
+                    <Link className="user" to="/profile">
                       <b>
                         <LuUserRound />
                       </b>

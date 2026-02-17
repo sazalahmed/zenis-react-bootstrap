@@ -34,6 +34,8 @@ const ProductDetails = () => {
   const { id } = useParams();
   const fondProduct = products.find((product) => product.id === parseInt(id));
 
+  const isOutOfStock = !fondProduct?.stock_status;
+
   return (
     <>
       <Breadcrumb pageTitle="Shop Details" />
@@ -116,10 +118,31 @@ const ProductDetails = () => {
                         </button>
                       </div>
                       <div className="details_btn_area">
-                        <Link className="common_btn buy_now" to="#">
+                        <Link
+                          to="/checkout"
+                          className="common_btn buy_now"
+                          aria-disabled={isOutOfStock}
+                          tabIndex={isOutOfStock ? -1 : 0}
+                          onClick={(e) => {
+                            if (isOutOfStock) {
+                              e.preventDefault();
+                            }
+                          }}
+                        >
                           Buy Now <FaArrowRightLong />
                         </Link>
-                        <Link className="common_btn" to="#">
+
+                        <Link
+                          to="#"
+                          className="common_btn"
+                          aria-disabled={isOutOfStock}
+                          tabIndex={isOutOfStock ? -1 : 0}
+                          onClick={(e) => {
+                            if (isOutOfStock) {
+                              e.preventDefault();
+                            }
+                          }}
+                        >
                           Add to cart <FaArrowRightLong />
                         </Link>
                       </div>
@@ -160,7 +183,6 @@ const ProductDetails = () => {
                         ))}
                       </li>
                     </ul>
-
                     <ul className="shop_details_shate">
                       <li>Share:</li>
                       <li>

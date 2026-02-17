@@ -1,0 +1,65 @@
+.flash_sell_page_header {
+    border: 1px dashed #ddd;
+    padding: 15px 30px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--themeColorTwo);
+    background: #ffa5000a;
+    gap: 15px 100px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.flash_sell_page_header h3 {
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--themeColorTwo);
+}
+
+.flash_sell_page_header .flash_sell_page_countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 50px;
+}
+
+.flash_sell_page_header .flash_sell_page_countdown p {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--themeColorTwo);
+    font-family: var(--headingFont);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width: 95px;
+}
+
+.flash_sell_page_header .flash_sell_page_countdown p::after {
+    position: absolute;
+    content: ":";
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--paraColor);
+    top: 3px;
+    right: -22px;
+}
+
+.flash_sell_page_header .flash_sell_page_countdown p:last-child::after {
+    display: none;
+}
+
+.flash_sell_page_header .flash_sell_page_countdown p span {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--colorBlack);
+}

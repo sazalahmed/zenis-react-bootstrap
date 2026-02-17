@@ -36,8 +36,8 @@ const BestSelling = () => {
                 ?.filter((product) => product.best_selling)
                 .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
                 .slice(-3)
-                .map((product) => (
-                  <div className="col-xl-4" key={product.id}>
+                .map((product, index) => (
+                  <div className="col-xl-4" key={index}>
                     <BestSellingProductCard product={product} />
                   </div>
                 ))}

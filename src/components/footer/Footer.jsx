@@ -153,7 +153,8 @@ const Footer = () => {
           <div className="col-12 ">
             <div className="footer_copyright">
               <p>
-                Copyright @ <b>Zenis</b> 2026. All right reserved.
+                Copyright @ <b>Zenis</b> {new Date().getFullYear()} All right
+                reserved.
               </p>
               <ul className="payment">
                 <li>Payment by :</li>

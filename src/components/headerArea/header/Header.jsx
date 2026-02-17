@@ -4,6 +4,7 @@ import logo from "../../../assets/images/logo_2.png";
 import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlinePhoneMissedCall } from "react-icons/hi";
+import { HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { CSSProperties } from "react";
 import Select from "react-select";
 
@@ -42,14 +43,9 @@ const Header = () => {
                 <Link className="header_logo" to="/">
                   <img src={logo} alt="Zenis"></img>
                 </Link>
-                <div
-                  className="mobile_menu_icon d-block d-lg-none"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasWithBothOptions"
-                  aria-controls="offcanvasWithBothOptions"
-                >
+                <div className="mobile_menu_icon d-block d-lg-none">
                   <span className="mobile_menu_icon">
-                    <i className="far fa-stream menu_icon_bar"></i>
+                    <HiMiniBars3BottomLeft />
                   </span>
                 </div>
               </div>

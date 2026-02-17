@@ -290,19 +290,23 @@ button {
     text-transform: capitalize;
 }
 
-.pagination_area ul {
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    margin-top: 50px;
 }
 
-.pagination_area .page-link {
+.pagination button {
     font-size: 16px;
     font-weight: 500;
     padding: 0;
     width: 45px;
     height: 45px;
+    line-height: 43px;
     text-align: center;
     color: var(--colorBlack);
-    line-height: 45px;
     background: var(--colorWhite) !important;
     border: 1px solid rgba(3, 26, 38, 0.14);
     border-radius: 6px;
@@ -312,17 +316,20 @@ button {
     -o-border-radius: 6px;
 }
 
-.pagination_area .page-link:hover,
-.pagination_area .page-link.active {
+.pagination button:hover,
+.pagination button.active {
     color: var(--colorWhite);
     background-color: var(--themeColorTwo) !important;
     border-color: var(--themeColorTwo);
 }
 
-.pagination_area .page-link:focus {
-    outline: 0;
-    box-shadow: none;
+.pagination button:disabled {
+    background: #ddd !important;
+    color: #999 !important;
+    border-color: #ddd !important;
+    opacity: 0.6;
 }
+
 
 .container {
     max-width: 1600px;
@@ -381,4 +388,33 @@ button {
 
 .col-xl-1-5 {
     width: 20%;
+}
+
+.single_input {
+    position: relative;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.single_input label {
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    background: var(--colorWhite);
+    font-size: 14px;
+    line-height: 15px;
+    padding: 0px 5px;
+    text-transform: capitalize;
+}
+
+.single_input input,
+.single_input textarea {
+    border: none;
+    font-size: 14px;
+    padding: 15px 20px;
 }

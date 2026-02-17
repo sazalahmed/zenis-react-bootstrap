@@ -1143,7 +1143,7 @@
         "original_price": 88.00,
         "category": "Jewelry",
         "tag": "Clothing",
-        "is_new": true,
+        "is_new": false,
         "best_selling": true,
         "is_flash_sell": false,
         "is_spatial": false,

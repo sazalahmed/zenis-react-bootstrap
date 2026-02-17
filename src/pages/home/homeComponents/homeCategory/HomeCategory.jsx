@@ -34,9 +34,9 @@ const HomeCategory = () => {
       <div className="container mt-5 pt-4">
         <div className="row">
           <Slider {...settings}>
-            {categorys?.map((category) => (
+            {categorys?.map((category, index) => (
               <div className="col-2">
-                <ProductCategory key={category.id} category={category} />
+                <ProductCategory key={index} category={category} />
               </div>
             ))}
           </Slider>

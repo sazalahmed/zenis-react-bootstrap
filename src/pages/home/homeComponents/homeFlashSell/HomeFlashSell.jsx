@@ -26,7 +26,7 @@ const HomeFlashSell = () => {
   };
 
   // set flsh sell time
-  const flashSellEnd = new Date("2026-02-15T23:59:59");
+  const flashSellEnd = new Date("2027-02-15T23:59:59");
 
   return (
     <div className="flash_sell mt-5 pt-5">
@@ -82,8 +82,8 @@ const HomeFlashSell = () => {
               //product slice
               .slice(0, 8)
               //product looping
-              .map((product) => (
-                <div className="col-xl-1-5" key={product.id}>
+              .map((product, index) => (
+                <div className="col-xl-1-5" key={index}>
                   <ProductCard product={product} />
                 </div>
               ))}

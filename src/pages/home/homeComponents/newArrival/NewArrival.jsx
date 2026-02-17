@@ -34,8 +34,8 @@ const NewArrival = () => {
             .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
             //product slice (latest/last 8 products)
             .slice(-5)
-            .map((product) => (
-              <div className="col-xl-1-5" key={product.id}>
+            .map((product, index) => (
+              <div className="col-xl-1-5" key={index}>
                 <ProductCard product={product} />
               </div>
             ))}
